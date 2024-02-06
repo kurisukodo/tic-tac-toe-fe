@@ -52,14 +52,12 @@ const StatisticBoard = () => {
         if (game.status !== GAME_STATUS.idle) {
             refetch();
         }
-    }, [game.status]);
+    }, [game.status, refetch]);
 
     return (
-        <Grid container spacing={2} className="mt-6 w-full">
+        <Grid container spacing={2} className="!mt-6 w-full">
             <Grid item xs={4}>
-                <StatisticBoardItem type={GAME_STATUS.won}>
-                    {statisticsData.won}
-                </StatisticBoardItem>
+                <StatisticBoardItem type={GAME_STATUS.won}>{statisticsData.won}</StatisticBoardItem>
             </Grid>
             <Grid item xs={4} className="aspect-square">
                 <StatisticBoardItem type={GAME_STATUS.drawn}>

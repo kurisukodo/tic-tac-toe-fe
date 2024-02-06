@@ -81,7 +81,7 @@ const GameBoard = () => {
                 item.map((_, j) => (
                     <Grid key={`item-${i}${j}`} item xs={4} className="aspect-square">
                         <Button
-                            className="h-full w-full rounded-xl bg-[#1F3540] p-6 shadow-[0_6px_0_0_rgb(16,33,42)]"
+                            className="h-full w-full !rounded-xl !bg-[#1F3540] !p-6 shadow-[0_6px_0_0_rgb(16,33,42)]"
                             onClick={() => handlePlayerMove(i, j)}>
                             <div
                                 className={`h-full w-full transition-opacity duration-500 ${board[i][j] !== '' ? 'opacity-100' : 'opacity-0'}`}>

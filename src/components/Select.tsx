@@ -43,7 +43,7 @@ const Select = <T extends any>({ children, ...rest }: PropsWithChildren<SelectPr
         <MUISelect
             displayEmpty
             variant="standard"
-            className="text-semibold w-[130px] rounded-xl bg-[#1F3540] text-sm uppercase text-[#A6BEC6] shadow-[0_6px_0_0_rgb(16,33,42)]"
+            className="text-semibold w-[130px] rounded-xl bg-[#1F3540] text-sm uppercase !text-[#A6BEC6] shadow-[0_6px_0_0_rgb(16,33,42)]"
             sx={SELECT_MUI_STYLES}
             MenuProps={SELECT_MUI_MENU_STYLES}
             {...rest}>

@@ -1,10 +1,7 @@
 'use client';
 
 import { BTN_TYPES } from '@/lib/constants';
-import {
-    Button as MUIButton,
-    ButtonProps as MUIButtonProps,
-} from '@mui/material';
+import { Button as MUIButton, ButtonProps as MUIButtonProps } from '@mui/material';
 import { ReactNode } from 'react';
 
 const BTN_COMMON = {
@@ -73,7 +70,7 @@ const Button = ({ variant, children, ...rest }: ButtonProps) => {
             fullWidth
             variant="contained"
             size="large"
-            className="mt-10"
+            className="!mt-10"
             sx={getButtonStyle()}
             {...rest}>
             {children}

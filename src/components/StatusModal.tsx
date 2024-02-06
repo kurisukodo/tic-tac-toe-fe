@@ -78,7 +78,7 @@ const StatusModal = () => {
                     spacing={2}
                     justifyItems="center"
                     alignItems="center">
-                    <Button variant={BTN_TYPES.yellow} onClick={resetGame}>
+                    <Button className="!mt-0" variant={BTN_TYPES.yellow} onClick={resetGame}>
                         Next Round
                     </Button>
                 </Stack>

@@ -1,12 +1,12 @@
-import type { SVGProps } from "react";
-import React from "react";
+import type { SVGProps } from 'react';
+import React from 'react';
 
-export default (props: SVGProps<SVGSVGElement>) => {
-	return (
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
-			<path
-				fill="#F1B238"
-				d="M513.000000,235.000000 
+const CircleIcon = (props: SVGProps<SVGSVGElement>) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
+            <path
+                fill="#F1B238"
+                d="M513.000000,235.000000 
                 C513.000000,249.354233 513.000000,263.708466 512.596558,278.691223 
                 C511.131317,287.386475 510.166595,295.467346 508.989441,303.517120 
                 C505.682159,326.133057 498.207916,347.479218 488.421387,367.991882 
@@ -54,8 +54,9 @@ export default (props: SVGProps<SVGSVGElement>) => {
                 C307.428131,141.174042 282.044067,132.957535 253.561600,133.884476 
                 C239.437057,134.344147 225.964493,136.808578 212.783432,141.916336 
                 C188.060318,151.496735 168.331146,167.062592 153.522217,189.980484 
-            z"
-			></path>
-		</svg>
-	);
+            z"></path>
+        </svg>
+    );
 };
+
+export default CircleIcon;

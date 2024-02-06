@@ -32,7 +32,7 @@ const GameScreen = () => {
 
     return (
         <Fade in={game.started}>
-            <Container className="absolute !flex h-full max-w-[430px] flex-col justify-center p-8">
+            <Container className="absolute !flex h-full !max-w-[430px] flex-col justify-center p-8">
                 <Stack
                     direction="row"
                     spacing={1}

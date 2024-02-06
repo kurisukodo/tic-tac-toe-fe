@@ -54,7 +54,7 @@ const PlayerScreen = () => {
 
     return (
         <Fade in={!game.started}>
-            <Container className="absolute !flex h-full max-w-[430px] flex-col justify-center p-8">
+            <Container className="absolute !flex h-full !max-w-[430px] flex-col justify-center p-8">
                 <Stack direction="row" spacing={1} justifyContent="center">
                     <CrossIcon className="h-8 w-8" />
                     <CircleIcon className="h-8 w-8" />

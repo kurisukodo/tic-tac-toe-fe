@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, create an .env file based off .env.example and fill in the url for your API. If default values were used, it should be [http://localhost:3001].
+First, create an .env file based off .env.example and fill in the url for your API. If default values were used, it should be [http://localhost:3001](http://localhost:3000).
 
 Second, run the development server:
 
